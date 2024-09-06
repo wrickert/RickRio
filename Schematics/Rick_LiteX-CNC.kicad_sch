@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "81226dee-3d7b-4df2-83b2-2f737809610c")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 168.91 83.82)
+		(size 57.15 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48fccfc2-f415-4097-a488-93a0e44a1479")
+		(property "Sheetname" "Raspberry Pi CM4"
+			(at 168.91 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPi_CM4.kicad_sch"
+			(at 168.91 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rick_LiteX-CNC"
+				(path "/81226dee-3d7b-4df2-83b2-2f737809610c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 83.82)
+		(size 50.8 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77759e91-2266-43d3-ac56-82b90f48aa4b")
+		(property "Sheetname" "Power"
+			(at 107.95 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 107.95 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rick_LiteX-CNC"
+				(path "/81226dee-3d7b-4df2-83b2-2f737809610c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 147.32)
+		(size 57.15 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb7599fd-24ef-4a94-9fbb-83b8fd70376f")
+		(property "Sheetname" "Lattice EPC5 FPGA"
+			(at 168.91 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EPC5.kicad_sch"
+			(at 168.91 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rick_LiteX-CNC"
+				(path "/81226dee-3d7b-4df2-83b2-2f737809610c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
